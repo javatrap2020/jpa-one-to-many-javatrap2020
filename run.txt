@@ -1,0 +1,18 @@
+mvn clean package
+
+mvn spring-boot:run
+
+---------------------------------------
+
+localhost:8088/posts/
+
+POST
+{
+    "createdAt": "2021-12-30T02:07:03.000+0000",
+    "updatedAt": "2021-12-30T02:07:03.000+0000",
+    "id": 1,
+    "title": "Post 1",
+    "description": "Post 1 description",
+    "content": "Post 1 content"
+
+}
